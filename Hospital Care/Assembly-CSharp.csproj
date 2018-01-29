@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BuildingManager.cs" />
+     <Compile Include="Assets\Scripts\Constants.cs" />
      <Compile Include="Assets\Scripts\GridManager.cs" />
      <Compile Include="Assets\Scripts\ObjectPlacer.cs" />
  <Reference Include="UnityEngine.UI">

@@ -35,7 +35,7 @@ public class GridManager : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
+        /*Gizmos.color = Color.yellow;
         for(float x = this.transform.position.x; x < this.transform.position.x + 40; x += SizeOfGrid)
         {
             for(float z = this.transform.position.z; z < this.transform.position.z + 40; z += SizeOfGrid)
@@ -43,6 +43,6 @@ public class GridManager : MonoBehaviour
                 var point = GetNearestGridPoint(new Vector3(x, 0.0f, z));
                 Gizmos.DrawSphere(point, 0.1f);
             }
-        }
+        }*/
     }
 }
